@@ -1,0 +1,21 @@
+{
+  "name": "dh-school",
+  "version": "1.0.0",
+  "description": "API educacional para gerenciamento de uma escola com Express, Sequelize e MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "Agatha Lafaiety",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.21.13"
+  }
+}

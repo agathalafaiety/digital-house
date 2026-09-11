@@ -1,46 +1,81 @@
-# Digital House
+# Digital House — Desenvolvimento Web Full Stack
 
-Repositório de estudos e projetos desenvolvidos durante o curso de **Desenvolvimento Web Full Stack**, da Digital House em parceria com a Gerando Falcões.
+Exercícios e projetos desenvolvidos durante o curso de **Desenvolvimento Web Full Stack** da Digital House, em parceria com a Gerando Falcões.
 
-## Conteúdos
+## Conteúdo
 
-- Fundamentos de JavaScript
-- HTML e CSS
-- Node.js e Express
-- Criação de rotas e APIs
-- Manipulação de arquivos JSON
-- Banco de dados com MySQL e Sequelize
+| Diretório | Descrição | Tecnologias |
+| --- | --- | --- |
+| [`fundamentos-javascript`](./fundamentos-javascript/) | Exercícios organizados por tema, da sintaxe básica aos recursos modernos da linguagem | JavaScript |
+| [`projetos/cine-house`](./projetos/cine-house/) | Manipulação de um catálogo de filmes | JavaScript e JSON |
+| [`projetos/dh-school`](./projetos/dh-school/) | API para consulta de alunos, áreas, cursos, professores e turmas | Express, Sequelize e MySQL |
+| [`projetos/express-api`](./projetos/express-api/) | Introdução a servidor, rotas e controllers | Express |
+| [`projetos/express-ejs`](./projetos/express-ejs/) | Configuração inicial de uma aplicação com view engine | Express e EJS |
+| [`projetos/fundamentos-node`](./projetos/fundamentos-node/) | Módulos, leitura de arquivos e manipulação de datas | Node.js |
+| [`projetos/shoes-store`](./projetos/shoes-store/) | Página de uma loja de calçados | HTML e CSS |
+| [`projetos/site-estatico`](./projetos/site-estatico/) | Projeto introdutório de página estática | HTML e CSS |
 
-## Projetos
+## Estrutura
 
-- `javascript`: exercícios de lógica e fundamentos da linguagem
-- `projetos`: atividades práticas com sites, Node.js e Express
-- `dh-school`: API de gerenciamento escolar com Express, Sequelize e MySQL
+```text
+digital-house/
+├── fundamentos-javascript/
+│   ├── 01-sintaxe-basica/
+│   ├── 02-condicionais/
+│   ├── 03-arrays-e-objetos/
+│   ├── 04-funcoes/
+│   ├── 05-lacos-de-repeticao/
+│   └── 06-recursos-modernos/
+├── projetos/
+│   ├── cine-house/
+│   ├── dh-school/
+│   ├── express-api/
+│   ├── express-ejs/
+│   ├── fundamentos-node/
+│   ├── shoes-store/
+│   └── site-estatico/
+├── .editorconfig
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
-## Tecnologias
+## Pré-requisitos
 
-- JavaScript
-- HTML e CSS
-- Node.js
-- Express
-- MySQL e Sequelize
+- Node.js e npm para os exercícios e projetos de back-end.
+- MySQL para executar a API `dh-school`.
+- Um navegador para abrir os projetos estáticos.
 
-## Como executar
+## Como usar
 
-Tenha o Node.js e o npm instalados. Depois, clone o repositório:
+Clone o repositório:
 
 ```bash
 git clone https://github.com/agathalafaiety/digital-house.git
 cd digital-house
 ```
 
-Cada projeto possui sua própria pasta. Para executar um deles, entre no diretório, instale as dependências e inicie o arquivo principal. Exemplo:
+Os arquivos de fundamentos podem ser executados diretamente com Node.js:
 
 ```bash
-cd projetos/projeto-express
-npm install
-node app.js
+node fundamentos-javascript/01-sintaxe-basica/variaveis.js
 ```
+
+Cada projeto Node possui seu próprio `package.json`. Entre na pasta desejada, instale as dependências e use o comando padronizado:
+
+```bash
+cd projetos/express-api
+npm install
+npm start
+```
+
+Consulte as [instruções específicas da API DH School](./projetos/dh-school/README.md) para preparar o banco MySQL.
+
+Os projetos `shoes-store` e `site-estatico` podem ser abertos diretamente pelo arquivo `index.html`.
+
+## Licença
+
+Este projeto está disponível sob a licença MIT. Consulte o arquivo [`LICENSE`](./LICENSE).
 
 ## Autoria
 

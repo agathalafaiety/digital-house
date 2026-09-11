@@ -1,11 +1,11 @@
 {
-  "name": "cinehouse",
+  "name": "cine-house",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercício de manipulação de um catálogo de filmes em JavaScript.",
   "main": "cinema.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node cinema.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Agatha Lafaiety",
+  "license": "MIT"
 }

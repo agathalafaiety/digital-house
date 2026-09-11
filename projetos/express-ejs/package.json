@@ -1,0 +1,19 @@
+{
+  "name": "express-ejs",
+  "version": "1.0.0",
+  "description": "Exercício introdutório de Express com a view engine EJS.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "ejs"
+  ],
+  "author": "Agatha Lafaiety",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
