@@ -74,6 +74,5 @@ Consulte as [instruções específicas da API DH School](./projetos/dh-school/RE
 Os projetos `shoes-store` e `site-estatico` podem ser abertos diretamente pelo arquivo `index.html`.
 
 ##
-
 - Desenvolvido por [Agatha Lafaiety](https://github.com/agathalafaiety).
 
