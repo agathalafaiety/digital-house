@@ -42,6 +42,6 @@ npm install
 node app.js
 ```
 
-## Autora
+## Autoria
 
 Desenvolvido por [Agatha Lafaiety](https://github.com/agathalafaiety).
